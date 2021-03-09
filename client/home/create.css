@@ -1,0 +1,11 @@
+body{
+    height: 100vh;
+}
+
+.container{
+    height: 100vh;
+}
+
+.left-nav{
+    background-color: bisque;
+}
