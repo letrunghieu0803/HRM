@@ -8,7 +8,7 @@ const path = require('path');
 
 const AuthRouter = require("./modules/auth/auth.router")
 // console.log(process.env.MONGODB_URI)
-mongoose.connect('mongodb://localhost:27017/BussinessUnite',{ useNewUrlParser: true }, (error)=>{
+mongoose.connect("mongodb+srv://hieult:hieupk123@cluster0.fh1op.gcp.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",{ useNewUrlParser: true }, (error)=>{
     if(error) throw error;
     console.log("Connect to MongoDb")
 })
